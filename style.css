@@ -45,18 +45,6 @@ body.white {
   //--primary-color-dark: #a61e4d;
 }
 
-/* body.white a {
-  text-align: center;
-  width: 130px;
-  height: 84px;
-  background: #fff;
-  border-radius: 0.8rem;
-} */
-
-/* body.white a img {
-  width: 40px;
-} */
-
 body.dark {
   --bg-color: #1e1f28;
   --text-color: #fff;
@@ -76,12 +64,6 @@ body.dark a {
 
 body.dark a:hover {
   background-color: #a855f7;
-}
-
-body {
-  background: var(--bg-color);
-  color: var(--text-color);
-  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 img.avatar {
@@ -127,24 +109,6 @@ p.role {
 
 }
 
-
-/* button .btn-cv {
-  width: 180px;
-  height: 80px;
-  border-radius: 20px;
-  background: var(--text-color);
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 500;
-  font-size: 1rem;
-  color: white;
-} */
-
-/* button:hover {
-  background: var(--primary-color-dark);
-  border: none;
-  transition: 0.1s;
-} */
-
 .container {
   flex: 1; /* Faz o conteúdo ocupar todo o espaço disponível */
   text-align: center;
@@ -170,16 +134,8 @@ section p {
   align-items: center;
   justify-content: center;
   border: none;
-  /* background: var(--text-secondary);
-  border-radius: 20px; */
   margin: 80px auto;
 
-  /* width: 100%;
-  height: 100px;
-  text-align: center; */
-}
-
-a {
   width: 180px;
   border-radius: 10px;
   padding: 1rem 5rem;
@@ -187,26 +143,15 @@ a {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 500;
   font-size: 1rem;
-  color: white;
+
   text-align: center;
   text-decoration: none;
   color: #fff;
 }
 
-
-
-/* .btn-cv {
-  width: 180px;
-  height: 80px;
-  border-radius: 20px;
-  background: var(--text-color);
-  font-family: "Plus Jakarta Sans", sans-serif;
-  font-weight: 500;
-  font-size: 1rem;
-  color: white;
-} */
-
-
+.btn-cv a {
+  text-decoration: none;
+}
 
 footer {
   display: flex;
