@@ -77,6 +77,10 @@ section {
   margin-bottom: 20px; /* Add space after section element */
 }
 
+a {
+  text-decoration: none;
+}
+
 .btn-cv {
   display: flex;
   align-items: center;
