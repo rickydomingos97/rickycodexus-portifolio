@@ -116,6 +116,12 @@ a {
   margin-bottom: 80px; /* Add space after sections */
 }
 
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .social {
   display: flex;
   align-items: flex-start;
