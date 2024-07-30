@@ -19,7 +19,7 @@ html {
 
 /* Set body styles */
 body {
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   background-color: #fff; /* Assuming white background class is for body */
 }
 
@@ -63,8 +63,6 @@ section p {
   line-height: 1.4;
 }
 
-
-
 /* Style profile section */
 .profile {
   text-align: center; /* Center profile text */
@@ -88,14 +86,14 @@ a {
   border: none;
   margin: 80px auto;
 
-  width: 180px;
+  width: 144px;
   border-radius: 10px;
   padding: 1rem 5rem;
   background: var(--text-color);
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 500;
   font-size: 1rem;
-
+  gap: 8px;
   text-align: center;
   text-decoration: none;
   color: #fff;
@@ -103,36 +101,33 @@ a {
 
 .btn-cv:hover {
   background: var(--primary-color-dark);
-  transition: .2s
+  transition: 0.2s;
 }
 
 .btn-cv a {
   text-decoration: none;
 }
 
-
 /* Style projects and social sections */
-.projects, .social {
+.projects,
+.social {
   display: flex;
   justify-content: center; /* Center elements horizontally */
-  margin-bottom: 20px; /* Add space after sections */
+  margin-bottom: 80px; /* Add space after sections */
 }
 
 .social {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-}
-
-.social-icons {
-  width: 2.8rem;
-  padding: 4rem 0;
+  align-items: flex-start;
+  gap: 48px;
+  flex-shrink: 0;
 }
 
 /* Style social icons */
+
 .social-icons {
-  margin: 0 10px; /* Add spacing between social icons */
+  width: 24px;
+  height: 24px;
 }
 
 /* Style footer */
@@ -161,6 +156,5 @@ footer {
     margin: 0 0.5rem;
   }
 }
-
 
 /* Additional styling for responsiveness or specific elements can be added here */
