@@ -72,7 +72,7 @@ section p {
 /* Style section element */
 section {
   text-align: justify; /* Justify text for better readability */
-  margin-bottom: 20px; /* Add space after section element */
+  margin-bottom: 3rem; /* Add space after section element */
 }
 
 a {
@@ -84,7 +84,6 @@ a {
   align-items: center;
   justify-content: center;
   border: none;
-  margin: 80px auto;
 
   width: 144px;
   border-radius: 10px;
@@ -119,14 +118,14 @@ a {
 .projects {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.2rem;
+  margin-top: 3rem;
 }
 
 .social {
   display: flex;
   align-items: flex-start;
   gap: 48px;
-  flex-shrink: 0;
 }
 
 /* Style social icons */
@@ -137,10 +136,6 @@ a {
 }
 
 /* Style footer */
-footer {
-  text-align: center;
-  margin-top: 20px; /* Add space before footer */
-}
 
 footer {
   display: flex;
@@ -154,6 +149,7 @@ footer {
   color: var(--text-secondary);
   opacity: 0.6;
 
+  margin-top: 1rem;
   text-align: center;
   padding: 2rem 0;
 
