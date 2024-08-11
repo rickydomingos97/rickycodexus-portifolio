@@ -115,7 +115,7 @@ a {
   background: var(--btn-red);
   font-family: "Cera", sans-serif;
   font-weight: 900;
-  font-size: 1rem;
+  font-size: 1.4rem;
   gap: 8px;
   text-align: center;
   text-decoration: none;
@@ -123,8 +123,8 @@ a {
 }
 
 .btn-cv:hover {
-  background: var(--primary-color-dark);
-  transition: 0.2s;
+  background: var(--bg-color-links);
+  transition: 0.1s;
 }
 
 .btn-cv a {
