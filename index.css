@@ -1,21 +1,18 @@
 /* Reset styles for a more consistent base */
 
 @font-face {
-  font-family: 'Cera';
-  src: local('Cera-Regular'),
-       url('./fonts/Cera-Regular.ttf') format('ttf');
+  font-family: "Cera";
+  src: local("Cera-Regular"), url("./fonts/Cera-Regular.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Cera';
-  src: local('Cera-Bold'),
-       url('./fonts/Cera-Bold.ttf') format('ttf');
+  font-family: "Cera";
+  src: local("Cera-Bold"), url("./fonts/Cera-Bold.ttf") format("ttf");
   font-weight: Bold;
   font-style: normal;
 }
-
 
 * {
   margin: 0;
@@ -34,16 +31,18 @@ html {
   --bg-color-links-dark: #1e1f28;
   --primary-color-dark: #a61e4d;
 
-  --bg-color-dark: #1A1B20;
-  --btn-red: #E40613;
-  --text-tuxa: #DDDDDD;
+  --bg-color-dark: #1a1b20;
+  --btn-red: #e40613;
+  --text-tuxa: #dddddd;
 }
 
 /* Set body styles */
 body {
   font-family: "Cera", sans-serif;
-  color: #DDDDDD;
-  background-color: var(--bg-color-dark); /* Assuming white background class is for body */
+  color: #dddddd;
+  background-color: var(
+    --bg-color-dark
+  ); /* Assuming white background class is for body */
 }
 
 /* Center container element */
@@ -115,7 +114,7 @@ a {
   background: var(--btn-red);
   font-family: "Cera", sans-serif;
   font-weight: 900;
-  font-size: 1.4rem;
+  font-size: 1rem;
   gap: 8px;
   text-align: center;
   text-decoration: none;
