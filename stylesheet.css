@@ -1,52 +1,5 @@
+☰ MENU lateral
 
-
-@font-face {
-    font-family: 'Cera';
-    src: url('Cera-Regular.eot');
-    src: local('Cera Regular'), local('Cera-Regular'),
-        url('Cera-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Cera-Regular.woff2') format('woff2'),
-        url('Cera-Regular.woff') format('woff'),
-        url('Cera-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: 'Cera';
-    src: url('Cera-Black.eot');
-    src: local('Cera Black'), local('Cera-Black'),
-        url('Cera-Black.eot?#iefix') format('embedded-opentype'),
-        url('Cera-Black.woff2') format('woff2'),
-        url('Cera-Black.woff') format('woff'),
-        url('Cera-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: 'Cera';
-    src: url('Cera-Light.eot');
-    src: local('Cera Light'), local('Cera-Light'),
-        url('Cera-Light.eot?#iefix') format('embedded-opentype'),
-        url('Cera-Light.woff2') format('woff2'),
-        url('Cera-Light.woff') format('woff'),
-        url('Cera-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Cera';
-    src: url('Cera-Bold.eot');
-    src: local('Cera Bold'), local('Cera-Bold'),
-        url('Cera-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Cera-Bold.woff2') format('woff2'),
-        url('Cera-Bold.woff') format('woff'),
-        url('Cera-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
+<a href="index.html">PT_BR</a>
+      <a href="index_eng.html">ENG_USA</a>
+      <a href="index_rus.html">RU_RUS</a>
