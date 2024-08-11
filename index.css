@@ -1,15 +1,18 @@
 /* Reset styles for a more consistent base */
+
 @font-face {
   font-family: 'Cera';
-  src: url('./fonts/Cera-Bold.ttf');
-  font-weight: bold;
+  src: local('Cera-Regular'),
+       url('./fonts/Cera-Regular.ttf') format('ttf');
+  font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Cera';
-  src: url('./fonts/Cera-Regular.ttf');
-  font-weight: normal;
+  src: local('Cera-Bold'),
+       url('./fonts/Cera-Bold.ttf') format('ttf');
+  font-weight: Bold;
   font-style: normal;
 }
 
