@@ -1,21 +1,30 @@
-html {
-  --bg-colordark: #1e1f28;
-  --bg-color: #edf2ff;
-  --text-color: #0d0c22;
-  --text-secondary: #7382ae;
-  --bg-color-links: #39a0f9;
-  --primary-color: #4263eb;
-  --primary-color-dark: #364fc7;
-  --bg-color-links-dark: #1e1f28;
-  --primary-color-dark: #a61e4d;
+@font-face {
+  font-family: "Cera";
+  src: local("Cera-Bold"), url("./fonts/Cera-Bold.woff2") format("woff2"),
+    url("./fonts/Cera-Bold.woff") format("woff");
+  font-weight: Bold;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: "Cera";
+  src: local("Cera-Regular"), url("./fonts/Cera-Regular.woff2") format("woff2"),
+    url("./fonts/Cera-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  --bg-color-dark: #1a1b20;
+  --btn-red: #e40613;
+  --text-tuxa: #ececec;
 }
 
 /* Set body styles */
 body {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  background-color: #fff; /* Assuming white background class is for body */
-  color: var(--text-color);
+  font-family: "Cera", sans-serif;
+  color: #dddddd;
+  background-color: var(--bg-color-dark);
 }
 
 /* Center container element */
@@ -42,7 +51,7 @@ footer {
   font-weight: 700;
   line-height: 10px;
   spacing: 5px;
-  font-size: 12px;
+  font-size: .8rem;
   color: var(--text-secondary);
   opacity: 0.6;
 
