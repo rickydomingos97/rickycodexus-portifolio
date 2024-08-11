@@ -1,18 +1,16 @@
 /* Reset styles for a more consistent base */
 @font-face {
-  font-family: 'Cera';
-  src: local('Cera-Bold'),
-       url('./fonts/Cera-Bold.woff2') format('woff2'),
-       url('./fonts/Cera-Bold.woff') format('woff');
+  font-family: "Cera";
+  src: local("Cera-Bold"), url("./fonts/Cera-Bold.woff2") format("woff2"),
+    url("./fonts/Cera-Bold.woff") format("woff");
   font-weight: Bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Cera';
-  src: local('Cera-Regular'),
-       url('./fonts/Cera-Regular.woff2') format('woff2'),
-       url('./fonts/Cera-Regular.woff') format('woff');
+  font-family: "Cera";
+  src: local("Cera-Regular"), url("./fonts/Cera-Regular.woff2") format("woff2"),
+    url("./fonts/Cera-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -36,16 +34,14 @@ html {
 
   --bg-color-dark: #1a1b20;
   --btn-red: #e40613;
-  --text-tuxa: #dddddd;
+  --text-tuxa: #ECECEC;
 }
 
 /* Set body styles */
 body {
   font-family: "Cera", sans-serif;
   color: #dddddd;
-  background-color: var(
-    --bg-color-dark
-  ); /* Assuming white background class is for body */
+  background-color: var(--bg-color-dark);
 }
 
 /* Center container element */
@@ -72,16 +68,18 @@ h1.name-profile {
   font-size: 1.5rem;
 }
 
-h1.role-title {
-  font-weight: 800;
-}
-
 p.role {
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 1rem;
   opacity: 0.8;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   color: var(--text-secondary);
+}
+
+h1.role-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
 }
 
 section p {
@@ -104,6 +102,28 @@ a {
   text-decoration: none;
 }
 
+
+/* Style projects and social sections */
+.projects,
+.social {
+  display: flex;
+  justify-content: center; /* Center elements horizontally */
+  margin-bottom: 80px; /* Add space after sections */
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 3rem;
+}
+
+.projects img {
+  border: 1px solid var(--text-tuxa);
+  border-radius: 12px;
+}
+
+/* Buttom CV */
 .btn-cv {
   display: flex;
   align-items: center;
@@ -133,20 +153,7 @@ a {
   text-decoration: none;
 }
 
-/* Style projects and social sections */
-.projects,
-.social {
-  display: flex;
-  justify-content: center; /* Center elements horizontally */
-  margin-bottom: 80px; /* Add space after sections */
-}
-
-.projects {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-  margin-top: 3rem;
-}
+/* SOCIAL MEDIA LINKS */
 
 .social {
   display: flex;
