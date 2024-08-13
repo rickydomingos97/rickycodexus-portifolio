@@ -51,7 +51,7 @@ footer {
   font-weight: 700;
   line-height: 10px;
   spacing: 5px;
-  font-size: .8rem;
+  font-size: 0.8rem;
   color: var(--text-secondary);
   opacity: 0.6;
 
@@ -63,7 +63,9 @@ footer {
     width: 16px;
     margin: 0 0.5rem;
   }
+
+  .heart {
+    width: 22px;
+    margin: 0 2px 0 1px;
+  }
 }
-
-
-
